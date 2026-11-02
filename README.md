@@ -24,7 +24,7 @@ site/
 | Что | Где | Сейчас |
 |---|---|---|
 | Телефон | поиск `+375293967600` и `+375 (29) 396-76-00` в `index.html`, `politika.html`, `assets/js/main.js` | номер заказчика |
-| Домен | теги `canonical`, `og:url`, `og:image`, `sitemap.xml`, `robots.txt` | `https://example.by/` |
+| Домен | теги `canonical`, `og:url`, `og:image`, `sitemap.xml`, `robots.txt` | `https://romjjjke.github.io/draenkov/` |
 | УНП и e-mail | `politika.html`, раздел 1 | `[указать УНП]`, `[указать e-mail]` |
 | Фотографии | `assets/img/` (сохранить имена файлов) | демонстрационные снимки |
 | Тексты, ковши, буры, география | `index.html` | данные заказчика |
@@ -53,12 +53,21 @@ const CONFIG = {
 
 ## Публикация
 
-Любой статический хостинг: Netlify Drop (перетащить папку), Vercel, Cloudflare Pages,
-GitHub Pages, обычный виртуальный хостинг (залить содержимое `site/` в `public_html`).
-HTTPS обязателен — иначе кнопки звонка и WhatsApp работают непредсказуемо.
+Сайт уже опубликован через GitHub Pages:
 
-После публикации замените `example.by` на реальный домен и добавьте сайт в
-Яндекс.Вебмастер и Google Search Console.
+- репозиторий: https://github.com/ROMjjjKE/draenkov
+- живая версия: https://romjjjke.github.io/draenkov/
+
+Обновление: закоммитить изменения в ветку `main` — Pages пересоберётся автоматически.
+
+Переезд на свой домен: Settings → Pages → Custom domain, затем заменить
+`https://romjjjke.github.io/draenkov/` на новый адрес в `index.html` (canonical,
+`og:url`, `og:image`, микроразметка), `politika.html`, `sitemap.xml` и `robots.txt`.
+После переезда добавить сайт в Яндекс.Вебмастер и Google Search Console.
+
+Альтернативы хостинга: Netlify Drop, Vercel, Cloudflare Pages, обычный виртуальный
+хостинг (залить содержимое в `public_html`). HTTPS обязателен — иначе кнопки звонка
+и WhatsApp работают непредсказуемо.
 
 ## SEO, что уже сделано
 

@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /politika.html
 
-Sitemap: https://example.by/sitemap.xml
+Sitemap: https://romjjjke.github.io/draenkov/sitemap.xml
